@@ -1,0 +1,15 @@
+services:
+  employee-app:
+    build: .
+    container_name: employee
+
+    ports:
+      - "8001:8000"
+
+    restart: always
+
+    environment:
+      DB_HOST: your-rds-endpoint
+      DB_USER: admin
+      DB_PASSWORD: ahad123456
+      DB_NAME: employee_db
