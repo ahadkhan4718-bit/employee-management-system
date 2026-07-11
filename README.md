@@ -22,7 +22,11 @@
 </p>
 # 🚀 Employee Management System
 
-A production-ready Employee Management System built with **Flask** and **MySQL**, deployed on **AWS EC2** with **Amazon RDS**, **Gunicorn**, **Nginx**, **Docker**, **Docker Compose**, and **GitHub Actions CI/CD**.
+A production-ready **Employee Management System** developed using **Flask** and **MySQL**, designed to demonstrate modern backend development and cloud deployment practices.
+
+The application is containerized with **Docker**, served using **Gunicorn** behind **Nginx**, and deployed on an **AWS EC2** instance with **Amazon RDS** as the database. Automated testing and deployment are handled through **GitHub Actions**, showcasing a complete CI/CD workflow.
+
+This project demonstrates practical experience with cloud infrastructure, Linux server administration, containerization, and deployment automation.
 
 ---
 
