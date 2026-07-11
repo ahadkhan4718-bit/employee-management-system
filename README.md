@@ -91,7 +91,7 @@ employee-management-system/
 # 🏗️ AWS Architecture
 
 <p align="center">
-  <img src="architecture/aws-architecture.png" alt="AWS Architecture Diagram" width="100%">
+  <img src="aws-architecture.png" alt="AWS Architecture Diagram" width="100%">
 </p>
 
 ### Deployment Flow
