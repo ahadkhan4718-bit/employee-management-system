@@ -88,25 +88,21 @@ employee-management-system/
 
 # 🏗️ Architecture
 
-```text
-                User
-                  │
-                  ▼
-             Web Browser
-                  │
-                  ▼
-               Nginx
-                  │
-                  ▼
-              Gunicorn
-                  │
-                  ▼
-              Flask App
-                  │
-                  ▼
-          Amazon RDS (MySQL)
-```
+# 🏗️ AWS Architecture
 
+<p align="center">
+  <img src="architecture/aws-architecture.png" alt="AWS Architecture Diagram" width="100%">
+</p>
+
+### Deployment Flow
+
+1. Developer pushes code to GitHub.
+2. GitHub Actions starts the CI pipeline.
+3. Docker image is built.
+4. The application is deployed to an AWS EC2 instance.
+5. Nginx forwards requests to Gunicorn.
+6. Gunicorn serves the Flask application.
+7. The Flask application communicates with Amazon RDS (MySQL).
 ---
 
 # 🚀 Deployment Architecture
