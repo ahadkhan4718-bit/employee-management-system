@@ -1,3 +1,6 @@
+<p align="center">
+  <img src="banner.png" width="100%" alt="Employee Management System Banner">
+</p>
 # 🚀 Employee Management System
 
 A production-ready Employee Management System built with **Flask** and **MySQL**, deployed on **AWS EC2** with **Amazon RDS**, **Gunicorn**, **Nginx**, **Docker**, **Docker Compose**, and **GitHub Actions CI/CD**.
