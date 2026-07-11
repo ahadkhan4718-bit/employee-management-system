@@ -1,6 +1,25 @@
 <p align="center">
   <img src="banner.png" width="100%" alt="Employee Management System Banner">
 </p>
+<p align="center">
+
+<img src="https://img.shields.io/badge/Python-3.12-blue?style=for-the-badge&logo=python"/>
+
+<img src="https://img.shields.io/badge/Flask-Web%20Framework-black?style=for-the-badge&logo=flask"/>
+
+<img src="https://img.shields.io/badge/AWS-EC2-orange?style=for-the-badge&logo=amazonaws"/>
+
+<img src="https://img.shields.io/badge/Amazon-RDS-yellow?style=for-the-badge&logo=amazonrds"/>
+
+<img src="https://img.shields.io/badge/Docker-Container-blue?style=for-the-badge&logo=docker"/>
+
+<img src="https://img.shields.io/badge/Nginx-Web%20Server-green?style=for-the-badge&logo=nginx"/>
+
+<img src="https://img.shields.io/badge/Gunicorn-WSGI-success?style=for-the-badge"/>
+
+<img src="https://img.shields.io/badge/GitHub%20Actions-CI-blue?style=for-the-badge&logo=githubactions"/>
+
+</p>
 # 🚀 Employee Management System
 
 A production-ready Employee Management System built with **Flask** and **MySQL**, deployed on **AWS EC2** with **Amazon RDS**, **Gunicorn**, **Nginx**, **Docker**, **Docker Compose**, and **GitHub Actions CI/CD**.
